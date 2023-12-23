@@ -1,0 +1,43 @@
+PCC quality measurement software, version 0.10
+
+infile1: C:\Users\admin\Desktop\mpeg-pcc-tmc13-PDE\Encoder_Decoder_test\pointclouds\\longdress_vox10_1300.ply
+infile2: C:\Users\admin\Desktop\mpeg-pcc-tmc13-PDE\Encoder_Decoder_test\midfiles\longdress_vox10_1300_dec.ply
+normal1: 
+
+Verifying if the data is loaded correctly.. The last point is: 256 902 320
+Reading file 1 done.
+Verifying if the data is loaded correctly.. The last point is: 288 883 304
+Reading file 2 done.
+Imported intrinsic resoluiton: 1023
+Peak distance for PSNR: 1023
+Point cloud sizes for org version, dec version, and the scaling ratio: 857966, 857966, 1
+Normals prepared.
+
+1. Use infile1 (A) as reference, loop over A, use normals on B. (A->B).
+   mse1      (p2point): 0
+   mse1,PSNR (p2point): inf
+   c[0],    1         : 3.81756e-06
+   c[1],    1         : 2.05267e-06
+   c[2],    1         : 2.20475e-06
+   c[0],PSNR1         : 54.1821
+   c[1],PSNR1         : 56.8768
+   c[2],PSNR1         : 56.5664
+2. Use infile2 (B) as reference, loop over B, use normals on A. (B->A).
+   mse2      (p2point): 0
+   mse2,PSNR (p2point): inf
+   c[0],    2         : 3.81756e-06
+   c[1],    2         : 2.05267e-06
+   c[2],    2         : 2.20475e-06
+   c[0],PSNR2         : 54.1821
+   c[1],PSNR2         : 56.8768
+   c[2],PSNR2         : 56.5664
+3. Final (symmetric).
+   mseF      (p2point): 0
+   mseF,PSNR (p2point): inf
+   c[0],    F         : 3.81756e-06
+   c[1],    F         : 2.05267e-06
+   c[2],    F         : 2.20475e-06
+   c[0],PSNRF         : 54.1821
+   c[1],PSNRF         : 56.8768
+   c[2],PSNRF         : 56.5664
+Job done! 0.969 seconds elapsed (excluding the time to load the point clouds).

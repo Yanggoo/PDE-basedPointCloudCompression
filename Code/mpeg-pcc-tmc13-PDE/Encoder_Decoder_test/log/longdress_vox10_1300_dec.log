@@ -1,0 +1,29 @@
+MPEG PCC tmc3 version 
++ Effective configuration parameters
+    mode                  : 1
+    firstFrameNum         : 0
+    frameCount            : 1
+    reconstructedDataPath : "C:\Users\admin\Desktop\mpeg-pcc-tmc13-PDE\Encoder_Decoder_test\midfiles\longdress_vox10_1300_dec.ply"
+    uncompressedDataPath  : "C:\Users\admin\Desktop\mpeg-pcc-tmc13-PDE\Encoder_Decoder_test\pointclouds\\longdress_vox10_1300.ply"
+    compressedStreamPath  : "C:\Users\admin\Desktop\mpeg-pcc-tmc13-PDE\Encoder_Decoder_test\midfiles\longdress_vox10_1300.bin"
+    postRecolorPath       : ""
+    preInvScalePath       : ""
+    convertPlyColourspace : 0
+    outputBinaryPly       : 1
+    outputUnitLength      : 1
+    outputScaling         : 1 (External)
+    outputPrecisionBits   : -1
+    skipOctreeLayers : 0
+    decodeMaxPoints  : 0
+
+positions bitstream size 109468 B
+positions processing time (user): 0.187 s
+
+colors bitstream size 923947 B
+colors processing time (user): 27.671 s
+
+Total bitstream size 1033496 B
+Processing time (wall): 28.936 s
+Processing time (user): 27.875 s
+
+Total point count: 857966
