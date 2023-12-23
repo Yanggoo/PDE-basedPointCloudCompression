@@ -75,11 +75,3 @@ mpeg-pcc-tmc13$ make -f $PWD/scripts/Makefile.tmc13-step \
 ### Another example
 
 The example above is given by MPEG, which is a little complex. You can directly run my script `Encoder_Decoder_test/test.py`  to test my code. Under near-lossless condition, `longdress_vox10_1300.bin` is 1010KB, while the original point cloud `longdress_vox10_1300.ply` is 23461KB. 
-
-**longdress_vox10_1300.ply:**
-
-![oringinal00](C:\Users\admin\Desktop\oringinal00.png)
-
-**longdress_vox10_1300_dec.ply:**
-
-![dec01](C:\Users\admin\Desktop\dec01.png)
