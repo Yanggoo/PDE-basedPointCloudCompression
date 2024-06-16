@@ -105,6 +105,8 @@ file(GLOB PROJECT_INC_FILES
   "ringbuf.h"
   "tables.h"
   "version.h"
+  "EEDpredictor.h"
+  "LOD4EED.h"
   "../dependencies/nanoflann/*.hpp"
   "../dependencies/nanoflann/*.h"
   "../dependencies/program-options-lite/*.h"
@@ -145,6 +147,7 @@ file(GLOB PROJECT_CPP_FILES
   "pointset_processing.cpp"
   "quantization.cpp"
   "tables.cpp"
+  "LOD4EED.cpp"
   "../dependencies/program-options-lite/*.cpp"
   "../dependencies/schroedinger/schroarith.c"
 )
